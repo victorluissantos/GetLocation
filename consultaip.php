@@ -56,7 +56,7 @@ class ConsultaIp extends sourceString{
 | Example of use |
 |================|
 */
-$consulta = new ConsultaIp('177.39.21.158');
+$consulta = new ConsultaIp('129.168.0.2');
 
 echo $estado = $consulta->getCidade();
 echo $cidade = $consulta->getEstado();
